@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace NorthWind.Entities.POCOEntities
 {
-    internal class OrderDetail
+    public class OrderDetail
     {
+        public int OrderId { get; set; } 
+        public int ProductId { get; set; }
+        public Decimal UnitPrice { get; set; }
+        public short Quantity { get; set; }
+        public Order Order { get; set; }
+
     }
 }
