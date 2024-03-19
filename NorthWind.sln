@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprice Business Rules", "Enterprice Business Rules", "{864F2464-7FED-4103-A04C-842B365300F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Business Rules", "Application Business Rules", "{E45BDA81-13FB-4EAC-A15B-71118337B945}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface Adapters", "Interface Adapters", "{7E7C386C-587B-46A4-8F61-A938758BADA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frameworks And Drivers", "Frameworks And Drivers", "{AA3C2B24-CF5A-4A1F-B6BA-C5A0D9EC20E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Entities", "NorthWind.Entities\NorthWind.Entities.csproj", "{1D65D852-0C78-4B29-AA68-DFAFC11711D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D65D852-0C78-4B29-AA68-DFAFC11711D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D65D852-0C78-4B29-AA68-DFAFC11711D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D65D852-0C78-4B29-AA68-DFAFC11711D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D65D852-0C78-4B29-AA68-DFAFC11711D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D65D852-0C78-4B29-AA68-DFAFC11711D1} = {864F2464-7FED-4103-A04C-842B365300F8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4436CDFE-1FEF-4645-8E5B-BDE61D4902B8}
+	EndGlobalSection
+EndGlobal
