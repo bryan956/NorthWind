@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace NorthWind.UseCasesDTOs.CreateOrder
 {
-    internal class CreateOrderDetailParams
+    public class CreateOrderDetailParams
     {
+        public int ProducId { get; set; }
+        public decimal UniPrice { get; set; }
+        public short Quantity { get; set; }
     }
 }
