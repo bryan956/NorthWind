@@ -10,6 +10,8 @@ namespace NorthWind.Repositories.EFCore.Migrations
     /// <inheritdoc />
     public partial class InitialCreate : Migration
     {
+        private const string Name = "FK_Orders_Customers_CustomerId";
+
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -55,15 +57,15 @@ namespace NorthWind.Repositories.EFCore.Migrations
                     ShippingType = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
-                {
+                { 
                     table.PrimaryKey("PK_Orders", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Orders_Customers_CustomerId",
+                        name: Name,
                         column: x => x.CustomerId,
                         principalTable: "Customers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
-                });
+                }); 
 
             migrationBuilder.CreateTable(
                 name: "OrderDetails",

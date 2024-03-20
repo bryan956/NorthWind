@@ -9,15 +9,15 @@ using System.Threading.Tasks;
 
 namespace NorthWind.Repositories.EFCore.DataContext
 {
-    internal class NorthWindContextFactory : IDesignTimeDbContextFactory<NorthWindContext>
+     class NorthWindContextFactory : IDesignTimeDbContextFactory<NorthWindContext>
     {
         public NorthWindContext CreateDbContext(string[] args)
         {
-            var OptionsBuilder = 
+            var OptionBuilder = 
                 new DbContextOptionsBuilder<NorthWindContext>();
-            OptionsBuilder.UseSqlServer(
+            OptionBuilder.UseSqlServer(
                 "Server=(localdb)\\mssgllocaldb;database=NorthWindDB");
-            return new NorthWindContext(OptionsBuilder.Options);
+            return new NorthWindContext(OptionBuilder.Options);
 
         }
     }
