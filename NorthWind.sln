@@ -17,9 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{FE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthWind.Repositories.EFCore", "NorthWind.Repositories.EFCore\NorthWind.Repositories.EFCore.csproj", "{E3965651-C40B-4040-97EC-CBA5765C5125}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.UseCasesDTOs", "NorthWind.UseCasesDTOs\NorthWind.UseCasesDTOs.csproj", "{745CBAA1-05E1-4004-975F-92EC943ED7AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthWind.UseCasesDTOs", "NorthWind.UseCasesDTOs\NorthWind.UseCasesDTOs.csproj", "{745CBAA1-05E1-4004-975F-92EC943ED7AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.UseCases", "NorthWind.UseCases\NorthWind.UseCases.csproj", "{824448C8-F558-4845-B424-69813C24BC3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthWind.UseCases", "NorthWind.UseCases\NorthWind.UseCases.csproj", "{824448C8-F558-4845-B424-69813C24BC3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.IoC", "NorthWind.IoC\NorthWind.IoC.csproj", "{A40A64B6-7977-44E9-8656-B3D5C4FC1243}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{824448C8-F558-4845-B424-69813C24BC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{824448C8-F558-4845-B424-69813C24BC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{824448C8-F558-4845-B424-69813C24BC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40A64B6-7977-44E9-8656-B3D5C4FC1243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40A64B6-7977-44E9-8656-B3D5C4FC1243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40A64B6-7977-44E9-8656-B3D5C4FC1243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40A64B6-7977-44E9-8656-B3D5C4FC1243}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{E3965651-C40B-4040-97EC-CBA5765C5125} = {FED2047E-F5AA-4D94-A060-02C24EC8F300}
 		{745CBAA1-05E1-4004-975F-92EC943ED7AD} = {E45BDA81-13FB-4EAC-A15B-71118337B945}
 		{824448C8-F558-4845-B424-69813C24BC3C} = {E45BDA81-13FB-4EAC-A15B-71118337B945}
+		{A40A64B6-7977-44E9-8656-B3D5C4FC1243} = {7E7C386C-587B-46A4-8F61-A938758BADA0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4436CDFE-1FEF-4645-8E5B-BDE61D4902B8}
